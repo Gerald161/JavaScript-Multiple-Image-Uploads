@@ -1,0 +1,55 @@
+.image_preview_container{
+	width: 300px;
+	min-height: 100px;
+	max-height: 300px;
+	overflow: hidden;
+    border: 2px solid #dddddd;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.image_preview_image{
+    display: none;
+    width: 100%;
+}
+
+input[type='file']{
+	display: none;
+}
+
+.select_image{
+	cursor: pointer;
+	color: white;
+	height: 40px;
+	width: 300px;
+	margin-top: 10px;
+	background-color: #f5af09;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2em;
+	font-family: "Monserrat", sans-serif;
+	transition: all 0.5s;
+}
+
+.select_image:hover{
+	background: dodgerblue;
+}
+
+.input_containers{
+	display: flex;
+	flex-basis: 35%;
+	flex-wrap: wrap;
+}
+
+.beautiful_display{
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
